@@ -1,0 +1,9 @@
+@import "../common/text.css";
+
+.full-width {
+    width: 100%;
+}
+
+.wrapper {
+    margin: 0.2rem;
+}

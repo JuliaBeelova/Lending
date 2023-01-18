@@ -1,0 +1,28 @@
+@import "common/core.css";
+@import "helpers/helpers.css";
+@import "common/toolbar.css";
+@import "common/page-content.css";
+@import "common/page-project.css";
+
+.app {
+    background: #1f8bae;
+    display: flex;
+    flex-flow: column;
+    margin: 0;
+}
+
+.page-toolbar {
+    width: 100%;
+    background: #131212;
+    color: white;
+}
+
+.page-content {
+    width: 100%;
+    background: #80878f;
+}
+
+.page-footer {
+    width: 100%;
+    background: #2d527c;
+}

@@ -1,0 +1,41 @@
+
+.page-projects {
+    display: flex;
+    flex-flow: row;
+}
+
+.page-projects__highlights {
+    width: 100%;
+}
+
+.page-projects__toolbar {
+    width: 100%;
+}
+
+@media screen and (max-width: 400px) {
+    .page-projects {
+        flex-flow: column;
+    }
+}
+
+@media screen and (min-width: 600px) {
+    .page-projects__highlights {
+        width: 50%;
+        padding-left: 1rem;
+    }
+
+    .page-projects__toolbar {
+        width: 50%;
+    }
+}
+
+@media screen and (min-width: 1200px) {
+    .page-projects__highlights {
+        padding-left: 3rem;
+        width: 40%;
+    }
+
+    .page-projects__toolbar {
+        width: 60%;
+    }
+}

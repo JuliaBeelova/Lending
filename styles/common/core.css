@@ -1,0 +1,11 @@
+
+html {
+    position: relative;
+    min-height: 100%;
+}
+
+body {
+    font-size: 0.9rem;
+    font-weight: 100;
+    font-family: GalaxieCondensedMedium,Arial,sans-serif;
+}
